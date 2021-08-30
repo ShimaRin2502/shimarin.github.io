@@ -1,8 +1,8 @@
-Origin:ShimaRin's リポジトリ
-Label:shimarin2502
-Suite:stable
-Version:1.0
-Codename:shimarin
-Architectures:iphoneos-arm
-Compornent:main
-Description:shimarin2502のテストリポジトリです。
+Origin: ShimaRin's リポジトリ
+Label: shimarin2502
+Suite: stable
+Version: 1.0
+Codename: shimarin
+Architectures: iphoneos-arm
+Compornent: main
+Description: shimarin2502のテストリポジトリです。
