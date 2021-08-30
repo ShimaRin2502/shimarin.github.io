@@ -1,0 +1,54 @@
+Package: apt7
+Priority: standard
+Section: Packaging
+Installed-Size: 1152
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.7.25.3-9
+Replaces: apt (<< 1:0-1)
+Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/apt7_0.7.25.3-9_iphoneos-arm.deb
+Size: 268210
+MD5sum: fd4e21263623720e819563dfb0fe23f2
+SHA1: d4829183f3e5929f857532204958f19028163602
+SHA256: 09e9b0dba087ee93385b8591f3d2e0005d78187e95d8633525fd92cf045f69ab
+Description: the advanced packaging tool from Debian
+Name: APT 0.7 Strict
+
+Package: berkeleydb
+Priority: standard
+Section: Data_Storage
+Installed-Size: 1704
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 4.6.21-5
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/berkeleydb_4.6.21-5_iphoneos-arm.deb
+Size: 483432
+MD5sum: d5538a770babf6adeb6f637c640fbcee
+SHA1: bb4cb7b140e57852d892c14d5a9649694d7b5f2b
+SHA256: 6754bcc64405a837c900040420838378d81e9e1df8ea70ae50ed4f91a33d8971
+Description: Oracle's embeddable database engine
+Name: Berkeley DB
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+
+Package: vn.gsm.unifiedipod
+Section: !GSMVN-Tools
+Installed-Size: 72
+Maintainer: Thieu.Bocap <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 0.0.3-5
+Depends: gsmicon, mobilesubstrate, firmware (>= 5.0), libhide
+Filename: ./debs/unifiedipod_0.0.3-5_iphoneos-arm.deb
+Size: 46356
+MD5sum: d3fc87723f90388f1706e68e92211670
+SHA1: c23ba7153c295160efdf4f9b4f2d92d7731825b1
+SHA256: 08ccea98eff85eb5f0cf923f5c1b790182214b552a6de74f4d251604d1d468cf
+Description: To combine the Videos and Music into iPod on iOS 5.
+Name: UnifiediPod
+Author: yeahwangy
+Depiction: http://cydia.gsm.vn/t2122/
+Homepage: http://cydia.vn/
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+
